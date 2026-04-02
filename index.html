@@ -8,92 +8,138 @@
 <body>
 
 <header>
-  <div class="logo">TEKKBIZZ ERP</div>
+  <h2>TEKKBIZZ ERP</h2>
 </header>
 
 <section class="pricing">
 
-  <h1>ERP Software Plans</h1>
+<h1>ERP Software Plans</h1>
 
-  <div class="cards">
+<div class="cards">
 
-    <!-- BASIC -->
-    <div class="card">
-      <h3>🟢 BASIC</h3>
-      <p class="price">PKR 5,000 / month</p>
-      <p class="setup">PKR 40,000 setup</p>
+<!-- BASIC -->
+<div class="card">
+<h3>BASIC PLAN</h3>
+<p class="tag">Best for small shops</p>
 
-      <ul>
-        <li>✔ POS Billing</li>
-        <li>✔ Inventory</li>
-        <li>✔ Purchase System</li>
-        <li>✔ Reports</li>
-        <li>✖ No Customer Management</li>
-        <li>✖ No Profit Reports</li>
-      </ul>
+<p class="price">PKR 5,000 / month</p>
+<p class="setup">PKR 40,000 setup</p>
 
-      <button>Choose Plan</button>
-    </div>
+<div class="features">
+<h4>What you get:</h4>
+<ul>
+<li>✔ POS Billing</li>
+<li>✔ Invoice Generation</li>
+<li>✔ Return & Exchange</li>
+<li>✔ Product Management</li>
+<li>✔ Inventory Tracking</li>
+<li>✔ Supplier Management</li>
+<li>✔ GRN System</li>
+<li>✔ Purchase Management</li>
+<li>✔ Cash/Card Tracking</li>
+<li>✔ Sale Reports</li>
+</ul>
 
-    <!-- STANDARD -->
-    <div class="card popular">
-      <div class="badge">MOST POPULAR</div>
-      <h3>🔵 STANDARD</h3>
-      <p class="price">PKR 5,000 / month</p>
-      <p class="setup">PKR 40,000 setup</p>
+<h4>Limitations:</h4>
+<ul class="limit">
+<li>✖ Only 3 Users</li>
+<li>✖ No Credit Sale</li>
+<li>✖ No Customer System</li>
+<li>✖ No Expense Tracking</li>
+<li>✖ No Profit Reports</li>
+</ul>
+</div>
 
-      <ul>
-        <li>✔ Everything in Basic</li>
-        <li>✔ Customer Management</li>
-        <li>✔ Credit Sale</li>
-        <li>✔ Profit Reports</li>
-        <li>✔ User Roles</li>
-      </ul>
+<button>Choose Plan</button>
+</div>
 
-      <button>Choose Plan</button>
-    </div>
+<!-- STANDARD -->
+<div class="card popular">
+<div class="badge">MOST POPULAR</div>
 
-    <!-- PREMIUM -->
-    <div class="card">
-      <h3>🟣 PREMIUM</h3>
-      <p class="price">PKR 5,000 / month</p>
-      <p class="setup">PKR 40,000 setup</p>
+<h3>STANDARD PLAN</h3>
+<p class="tag">Best for growing business</p>
 
-      <ul>
-        <li>✔ Everything in Standard</li>
-        <li>✔ HR System</li>
-        <li>✔ Accounting</li>
-        <li>✔ Audit Log</li>
-        <li>✔ Unlimited Users</li>
-      </ul>
+<p class="price">PKR 5,000 / month</p>
+<p class="setup">PKR 40,000 setup</p>
 
-      <button>Choose Plan</button>
-    </div>
+<div class="features">
+<ul>
+<li>✔ Everything in Basic</li>
+<li>✔ Credit Sale</li>
+<li>✔ Customer Management</li>
+<li>✔ Stock Transfer</li>
+<li>✔ Product Ledger</li>
+<li>✔ Expense Reports</li>
+<li>✔ Profit Reports</li>
+<li>✔ User Roles</li>
+<li>✔ Detailed Reports</li>
+</ul>
 
-  </div>
+<h4>Limitations:</h4>
+<ul class="limit">
+<li>✖ No HR Module</li>
+<li>✖ No Loyalty System</li>
+<li>✖ No Audit Log</li>
+<li>✖ No Full Accounting</li>
+</ul>
+</div>
 
-  <button class="compare-btn" onclick="toggleTable()">View Full Comparison</button>
+<button>Choose Plan</button>
+</div>
+
+<!-- PREMIUM -->
+<div class="card">
+<h3>PREMIUM PLAN</h3>
+<p class="tag">Full ERP Solution</p>
+
+<p class="price">PKR 5,000 / month</p>
+<p class="setup">PKR 40,000 setup</p>
+
+<div class="features">
+<ul>
+<li>✔ Everything in Standard</li>
+<li>✔ HR Management</li>
+<li>✔ Attendance</li>
+<li>✔ Loyalty Points</li>
+<li>✔ Audit Log</li>
+<li>✔ Commission System</li>
+<li>✔ Full Accounting</li>
+<li>✔ Financial Reports</li>
+<li>✔ Unlimited Users</li>
+</ul>
+</div>
+
+<button>Choose Plan</button>
+</div>
+
+</div>
+
+<button class="compare-btn" onclick="toggleTable()">View Full Comparison</button>
 
 </section>
 
+<!-- TABLE -->
 <section id="tableSection" class="hidden">
-  <h2>Feature Comparison</h2>
 
-  <table>
-    <tr>
-      <th>Feature</th>
-      <th>Basic</th>
-      <th>Standard</th>
-      <th>Premium</th>
-    </tr>
+<h2>Feature Comparison</h2>
 
-    <tr><td>POS Billing</td><td>✔</td><td>✔</td><td>✔</td></tr>
-    <tr><td>Stock Transfer</td><td>✖</td><td>✔</td><td>✔</td></tr>
-    <tr><td>Customer Management</td><td>✖</td><td>✔</td><td>✔</td></tr>
-    <tr><td>HR System</td><td>✖</td><td>✖</td><td>✔</td></tr>
-    <tr><td>Accounting</td><td>✖</td><td>✖</td><td>✔</td></tr>
+<table>
+<tr>
+<th>Feature</th><th>Basic</th><th>Standard</th><th>Premium</th>
+</tr>
 
-  </table>
+<tr><td>POS Billing</td><td>✔</td><td>✔</td><td>✔</td></tr>
+<tr><td>Stock Transfer</td><td>✖</td><td>✔</td><td>✔</td></tr>
+<tr><td>Product Ledger</td><td>✖</td><td>✔</td><td>✔</td></tr>
+<tr><td>Customer Management</td><td>✖</td><td>✔</td><td>✔</td></tr>
+<tr><td>Expense Management</td><td>✖</td><td>✔</td><td>✔</td></tr>
+<tr><td>Profit Reports</td><td>✖</td><td>✔</td><td>✔</td></tr>
+<tr><td>HR</td><td>✖</td><td>✖</td><td>✔</td></tr>
+<tr><td>Accounting</td><td>✖</td><td>✖</td><td>✔</td></tr>
+
+</table>
+
 </section>
 
 <script src="script.js"></script>
