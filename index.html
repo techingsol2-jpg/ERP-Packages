@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pricing Plans</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="pricing">
+
+  <h1>Plans & Pricing</h1>
+
+  <div class="cards">
+
+    <!-- BASIC -->
+    <div class="card">
+      <h3>BASIC</h3>
+      <p class="price">PKR 5,000/mo</p>
+      <button>Choose Plan</button>
+
+      <ul>
+        <li>✔ POS Billing</li>
+        <li>✔ Inventory</li>
+        <li>✔ Purchase System</li>
+        <li>✖ No Customer Management</li>
+        <li>✖ No Reports</li>
+      </ul>
+    </div>
+
+    <!-- STANDARD -->
+    <div class="card popular">
+      <div class="badge">MOST POPULAR</div>
+      <h3>STANDARD</h3>
+      <p class="price">PKR 5,000/mo</p>
+      <button>Choose Plan</button>
+
+      <ul>
+        <li>✔ Everything in Basic</li>
+        <li>✔ Customer Management</li>
+        <li>✔ Credit Sales</li>
+        <li>✔ Reports & Profit</li>
+        <li>✔ User Roles</li>
+      </ul>
+    </div>
+
+    <!-- PREMIUM -->
+    <div class="card">
+      <h3>PREMIUM</h3>
+      <p class="price">PKR 5,000/mo</p>
+      <button>Choose Plan</button>
+
+      <ul>
+        <li>✔ Everything in Standard</li>
+        <li>✔ HR & Attendance</li>
+        <li>✔ Accounting System</li>
+        <li>✔ Audit Log</li>
+        <li>✔ Unlimited Users</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <button class="compare-btn" onclick="toggleTable()">Compare Plans</button>
+
+</section>
+
+
+<!-- COMPARISON TABLE -->
+<section id="tableSection" class="hidden">
+
+  <h2>Compare Plans</h2>
+
+  <table>
+    <tr>
+      <th>Feature</th>
+      <th>Basic</th>
+      <th>Standard</th>
+      <th>Premium</th>
+    </tr>
+
+    <tr>
+      <td>POS Billing</td>
+      <td>✔</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+
+    <tr>
+      <td>Stock Transfer</td>
+      <td>✖</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+
+    <tr>
+      <td>Customer Management</td>
+      <td>✖</td>
+      <td>✔</td>
+      <td>✔</td>
+    </tr>
+
+    <tr>
+      <td>HR System</td>
+      <td>✖</td>
+      <td>✖</td>
+      <td>✔</td>
+    </tr>
+
+    <tr>
+      <td>Accounting</td>
+      <td>✖</td>
+      <td>✖</td>
+      <td>✔</td>
+    </tr>
+
+  </table>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
