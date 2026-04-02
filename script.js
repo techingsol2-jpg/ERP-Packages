@@ -4,11 +4,10 @@ function toggleTable() {
 
   table.classList.toggle("hidden");
 
-  if (!table.classList.contains("hidden")) {
-    table.scrollIntoView({ behavior: "smooth" });
-    btn.innerText = "Hide Comparison";
-  } else {
+  if (table.classList.contains("hidden")) {
     btn.innerText = "View Full Comparison";
+  } else {
+    btn.innerText = "Hide Comparison";
   }
 }
 // BACKGROUND NETWORK ANIMATION
