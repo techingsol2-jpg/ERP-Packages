@@ -1,0 +1,107 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f5f7;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.price {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.card button {
+  background: #6c5ce7;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.card ul {
+  text-align: left;
+  padding: 0;
+  list-style: none;
+}
+
+.card ul li {
+  margin: 8px 0;
+}
+
+/* POPULAR CARD */
+.popular {
+  border: 2px solid #6c5ce7;
+  transform: scale(1.05);
+}
+
+.badge {
+  background: #6c5ce7;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.compare-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  border: 2px solid #6c5ce7;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* TABLE */
+#tableSection {
+  padding: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #6c5ce7;
+  color: white;
+}
