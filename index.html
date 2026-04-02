@@ -2,74 +2,82 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Pricing Plans</title>
+<title>TEKKBIZZ ERP</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<header>
+  <div class="logo">TEKKBIZZ ERP</div>
+</header>
+
 <section class="pricing">
 
-  <h1>Plans & Pricing</h1>
+  <h1>ERP Software Plans</h1>
 
   <div class="cards">
 
     <!-- BASIC -->
     <div class="card">
-      <h3>BASIC</h3>
-      <p class="price">PKR 5,000/mo</p>
-      <button>Choose Plan</button>
+      <h3>🟢 BASIC</h3>
+      <p class="price">PKR 5,000 / month</p>
+      <p class="setup">PKR 40,000 setup</p>
 
       <ul>
         <li>✔ POS Billing</li>
         <li>✔ Inventory</li>
         <li>✔ Purchase System</li>
+        <li>✔ Reports</li>
         <li>✖ No Customer Management</li>
-        <li>✖ No Reports</li>
+        <li>✖ No Profit Reports</li>
       </ul>
+
+      <button>Choose Plan</button>
     </div>
 
     <!-- STANDARD -->
     <div class="card popular">
       <div class="badge">MOST POPULAR</div>
-      <h3>STANDARD</h3>
-      <p class="price">PKR 5,000/mo</p>
-      <button>Choose Plan</button>
+      <h3>🔵 STANDARD</h3>
+      <p class="price">PKR 5,000 / month</p>
+      <p class="setup">PKR 40,000 setup</p>
 
       <ul>
         <li>✔ Everything in Basic</li>
         <li>✔ Customer Management</li>
-        <li>✔ Credit Sales</li>
-        <li>✔ Reports & Profit</li>
+        <li>✔ Credit Sale</li>
+        <li>✔ Profit Reports</li>
         <li>✔ User Roles</li>
       </ul>
+
+      <button>Choose Plan</button>
     </div>
 
     <!-- PREMIUM -->
     <div class="card">
-      <h3>PREMIUM</h3>
-      <p class="price">PKR 5,000/mo</p>
-      <button>Choose Plan</button>
+      <h3>🟣 PREMIUM</h3>
+      <p class="price">PKR 5,000 / month</p>
+      <p class="setup">PKR 40,000 setup</p>
 
       <ul>
         <li>✔ Everything in Standard</li>
-        <li>✔ HR & Attendance</li>
-        <li>✔ Accounting System</li>
+        <li>✔ HR System</li>
+        <li>✔ Accounting</li>
         <li>✔ Audit Log</li>
         <li>✔ Unlimited Users</li>
       </ul>
+
+      <button>Choose Plan</button>
     </div>
 
   </div>
 
-  <button class="compare-btn" onclick="toggleTable()">Compare Plans</button>
+  <button class="compare-btn" onclick="toggleTable()">View Full Comparison</button>
 
 </section>
 
-
-<!-- COMPARISON TABLE -->
 <section id="tableSection" class="hidden">
-
-  <h2>Compare Plans</h2>
+  <h2>Feature Comparison</h2>
 
   <table>
     <tr>
@@ -79,43 +87,13 @@
       <th>Premium</th>
     </tr>
 
-    <tr>
-      <td>POS Billing</td>
-      <td>✔</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-
-    <tr>
-      <td>Stock Transfer</td>
-      <td>✖</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-
-    <tr>
-      <td>Customer Management</td>
-      <td>✖</td>
-      <td>✔</td>
-      <td>✔</td>
-    </tr>
-
-    <tr>
-      <td>HR System</td>
-      <td>✖</td>
-      <td>✖</td>
-      <td>✔</td>
-    </tr>
-
-    <tr>
-      <td>Accounting</td>
-      <td>✖</td>
-      <td>✖</td>
-      <td>✔</td>
-    </tr>
+    <tr><td>POS Billing</td><td>✔</td><td>✔</td><td>✔</td></tr>
+    <tr><td>Stock Transfer</td><td>✖</td><td>✔</td><td>✔</td></tr>
+    <tr><td>Customer Management</td><td>✖</td><td>✔</td><td>✔</td></tr>
+    <tr><td>HR System</td><td>✖</td><td>✖</td><td>✔</td></tr>
+    <tr><td>Accounting</td><td>✖</td><td>✖</td><td>✔</td></tr>
 
   </table>
-
 </section>
 
 <script src="script.js"></script>
