@@ -140,3 +140,54 @@ th {
   background: #6c5ce7;
   color: white;
 }
+
+
+/* ========================= */
+/* 🔥 NEW ADD (DO NOT REMOVE) */
+/* ========================= */
+
+/* PLAN TITLE */
+.plan-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* TAG LINE */
+.plan-tag {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* PRICE BOX */
+.price-box {
+  margin: 15px 0;
+}
+
+.setup span {
+  font-size: 11px;
+  color: gray;
+}
+
+.monthly {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ✔ FEATURES */
+.list.ok li::before {
+  content: "✔ ";
+  color: green;
+}
+
+/* ✖ LIMITATIONS */
+.list.no li::before {
+  content: "✖ ";
+  color: red;
+}
+
+/* NOTE TEXT */
+.note {
+  font-size: 12px;
+  margin-top: 10px;
+}
