@@ -255,3 +255,6 @@ body::before {
     transform: translate(100px, 100px);
   }
 }
+.logo {
+  height: 40px;
+}
