@@ -196,3 +196,11 @@ th {
   font-size: 12px;
   margin-top: 10px;
 }
+
+.card {
+  text-align: left; /* 🔥 important */
+}
+
+.features {
+  text-align: left;
+}
