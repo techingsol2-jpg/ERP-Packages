@@ -197,10 +197,40 @@ th {
   margin-top: 10px;
 }
 
+.list.no li {
+  color: red;
+}
+
 .card {
   text-align: left; /* 🔥 important */
 }
 
 .features {
   text-align: left;
+}
+
+/* LIST SPACING */
+.list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* HEADING SPACING */
+.features h4 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/* SECTION GAP */
+.features {
+  margin-top: 10px;
+}
+
+/* NOTE TEXT SPACING */
+.note {
+  margin-top: 15px;
+  line-height: 1.4;
+}
+.list li {
+  margin-bottom: 10px;
 }
