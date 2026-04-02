@@ -175,15 +175,20 @@ th {
 }
 
 /* ✔ FEATURES */
-.list.ok li::before {
-  content: "✔ ";
-  color: green;
+.list li {
+  position: relative;
+  padding-left: 18px;
 }
 
-/* ✖ LIMITATIONS */
-.list.no li::before {
-  content: "✖ ";
-  color: red;
+.list li::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #444;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
 }
 
 /* NOTE TEXT */
