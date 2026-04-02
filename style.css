@@ -91,7 +91,6 @@ ul {
 
 /* BUTTON */
 button {
-  width: 100%;
   padding: 12px;
   border: none;
   border-radius: 8px;
@@ -100,6 +99,11 @@ button {
   background: linear-gradient(45deg, #6c5ce7, #00c6ff);
   color: white;
   font-weight: bold;
+}
+
+/* only card buttons full width */
+.card button {
+  width: 100%;
 }
 
 /* CLICK EFFECT */
