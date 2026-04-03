@@ -282,5 +282,7 @@ body::before {
 
 /* LOGO PERFECT SIZE */
 .logo {
-  height: 200px;
+  height: 150px !important;
+  width: auto !important;
+  display: block;
 }
