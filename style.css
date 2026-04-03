@@ -283,5 +283,5 @@ body::before {
 /* LOGO PERFECT SIZE */
 .logo {
   height: 120px;
-  width: auto;
+  min-height: 120px;
 }
