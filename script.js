@@ -1,15 +1,21 @@
-function toggleTable() {
+document.addEventListener("DOMContentLoaded", function () {
+
   const table = document.getElementById("tableSection");
   const btn = document.querySelector(".compare-btn");
 
-  table.classList.toggle("hidden");
+  btn.addEventListener("click", function () {
+    table.classList.toggle("hidden");
 
-  if (table.classList.contains("hidden")) {
-    btn.innerText = "View Full Comparison";
-  } else {
-    btn.innerText = "Hide Comparison";
-  }
-}
+    if (table.classList.contains("hidden")) {
+      btn.innerText = "View Full Comparison";
+    } else {
+      btn.innerText = "Hide Comparison";
+      table.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+
+});
+
 // BACKGROUND NETWORK ANIMATION
 const canvas = document.createElement("canvas");
 document.body.appendChild(canvas);
