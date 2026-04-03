@@ -270,6 +270,24 @@ body::before {
 
 .logo {
   height: 60px;
-  width: auto;        /* 🔥 important */
-  display: block;
+  width: auto;
+}
+
+.main-header {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; /* center logo */
+  align-items: center;
+
+  background: rgba(255,255,255,0.05); /* halka glass look */
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* LOGO PERFECT SIZE */
+.logo {
+  height: 60px;
+  width: auto;
 }
