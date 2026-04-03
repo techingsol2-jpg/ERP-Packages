@@ -18,7 +18,7 @@ canvas.style.position = "fixed";
 canvas.style.top = 0;
 canvas.style.left = 0;
 canvas.style.zIndex = 0;
-
+canvas.style.pointerEvents = "none"; // 🔥 YE LINE ADD KARO
 const ctx = canvas.getContext("2d");
 
 let particles = [];
