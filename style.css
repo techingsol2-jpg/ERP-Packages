@@ -268,6 +268,12 @@ body::before {
   
 }
 
+.logo {
+  height: 90px;
+  width: auto;
+}
+
+
 .main-header {
   width: 100%;
   padding: 30px 0;   /* 🔥 pehle 15 tha */
