@@ -286,3 +286,47 @@ body::before {
   width: auto !important;
   display: block;
 }
+
+/* ========================= */
+/* 🔥 CARD FINAL UI UPGRADE */
+/* ========================= */
+
+.card {
+  min-height: 550px; /* lamba card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* TEXT ALIGN */
+.card h3,
+.card p,
+.card li {
+  text-align: left;
+}
+
+/* FEATURES SECTION */
+.features {
+  margin-top: 15px;
+}
+
+/* LIST STYLE */
+.list li {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee; /* line under each item */
+  line-height: 1.5;
+}
+
+/* REMOVE LAST LINE */
+.list li:last-child {
+  border-bottom: none;
+}
+
+/* HOVER EFFECT (smooth standout) */
+.card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
