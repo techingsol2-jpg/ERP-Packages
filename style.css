@@ -267,6 +267,9 @@ body::before {
 }
   
 }
+
 .logo {
   height: 60px;
+  width: auto;        /* 🔥 important */
+  display: block;
 }
