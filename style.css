@@ -258,6 +258,9 @@ body::before {
   to {
     transform: translate(100px, 100px);
   }
+}
+
+/* button fix */
 .compare-btn {
   position: relative;
   z-index: 5;
