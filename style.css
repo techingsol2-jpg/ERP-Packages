@@ -91,22 +91,22 @@ ul {
 
 /* BUTTON */
 button {
+  width: 100%;
   padding: 12px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
 
-  background: linear-gradient(45deg, #6c5ce7, #00c6ff);
-  color: white;
+  background: linear-gradient(45deg, #ff8c00, #ffd700); /* orange → yellow 🔥 */
+  color: black;
   font-weight: bold;
+  transition: 0.3s;
 }
 
-/* only card buttons full width */
-.card button {
-  width: 100%;
+button:hover {
+  opacity: 0.9;
 }
 
-/* CLICK EFFECT */
 button:active {
   transform: scale(0.95);
 }
