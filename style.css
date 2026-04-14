@@ -54,8 +54,8 @@ h1 {
 }
 
 th {
-  background: linear-gradient(45deg, #ff8c00, #ffd700);
-  color: black;
+  background: linear-gradient(45deg, #ff7a00, #ffae00); /* orange */
+  color: white;
 }
 
 .badge {
