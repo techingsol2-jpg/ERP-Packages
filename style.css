@@ -345,3 +345,21 @@ table th {
   background: linear-gradient(45deg, #ff7a00, #ffae00) !important;
   color: white;
 }
+
+.subscription {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffae00;
+  background: rgba(255, 165, 0, 0.1);
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+/* Price bigger */
+.monthly {
+  font-size: 24px; /* bada kar diya 🔥 */
+  font-weight: bold;
+  margin-top: 5px;
+}
