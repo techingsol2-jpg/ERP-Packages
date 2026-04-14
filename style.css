@@ -335,3 +335,13 @@ body::before {
   transform: translateY(-12px) scale(1.02);
   box-shadow: 0 15px 40px rgba(0,0,0,0.3);
 }
+
+table th {
+  background: linear-gradient(45deg, #ff7a00, #ffae00) !important;
+  color: white !important;
+}
+
+.badge {
+  background: linear-gradient(45deg, #ff7a00, #ffae00) !important;
+  color: white;
+}
