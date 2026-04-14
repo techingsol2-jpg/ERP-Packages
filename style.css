@@ -102,8 +102,8 @@ button {
   border-radius: 8px;
   cursor: pointer;
 
-  background: linear-gradient(45deg, #ff8c00, #ffd700); /* orange → yellow 🔥 */
-  color: black;
+  background: linear-gradient(45deg, #ff7a00, #ffb347); /* dark orange → soft light */
+  color: white;
   font-weight: bold;
   transition: 0.3s;
 }
