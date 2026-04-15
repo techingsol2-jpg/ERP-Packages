@@ -50,11 +50,11 @@ h1 {
 
 /* POPULAR */
 .popular {
-  border: 2px solid #ffb300;
+  border: 2px solid #ea580c;
 }
 
 th {
-  background: linear-gradient(45deg, #ff7a00, #ffae00); /* orange */
+  background: linear-gradient(45deg, #ea580c,); /* orange */
   color: white;
 }
 
@@ -102,7 +102,7 @@ button {
   border-radius: 8px;
   cursor: pointer;
 
-  background: linear-gradient(45deg, #ff7a00, #ffb347); /* dark orange → soft light */
+  background: linear-gradient(45deg, #ea580c,); /* dark orange → soft light */
   color: white;
   font-weight: bold;
   transition: 0.3s;
@@ -337,12 +337,12 @@ body::before {
 }
 
 table th {
-  background: linear-gradient(45deg, #ff7a00, #ffae00) !important;
+  background: linear-gradient(45deg, #ea580c,) !important;
   color: white !important;
 }
 
 .badge {
-  background: linear-gradient(45deg, #ff7a00, #ffae00) !important;
+  background: linear-gradient(45deg, #ea580c,) !important;
   color: white;
 }
 
