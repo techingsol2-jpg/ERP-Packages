@@ -365,3 +365,25 @@ table th {
   font-weight: bold;
   margin-top: 5px;
 }
+
+/* FORCE ORANGE BUTTON FIX */
+button,
+.btn,
+.compare-btn {
+  background: #ea580c !important;
+  color: white !important;
+}
+
+/* HOVER */
+button:hover,
+.btn:hover,
+.compare-btn:hover {
+  background: #cf4e0a !important;
+}
+
+/* CLICK EFFECT */
+button:active,
+.btn:active,
+.compare-btn:active {
+  transform: scale(0.95);
+}
